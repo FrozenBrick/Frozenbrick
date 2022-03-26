@@ -1,0 +1,21 @@
+body{
+  background-color: #ffd460;
+  text-align: center;
+}
+
+h1{
+  color: #ea5455;
+
+}
+
+.q1{
+  display: none;
+}
+
+.q2:hover + .q1{
+  display: block;
+  font-size: 100px
+}
+.q2:hover{
+  display: none;
+}

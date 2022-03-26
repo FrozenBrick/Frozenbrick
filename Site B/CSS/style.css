@@ -1,0 +1,91 @@
+body {
+  background-color: #d2f5e3;
+  margin: 0;
+  text-align: center;
+  font-family: 'Zilla Slab', serif;
+  ;
+}
+
+.top {
+  position: relative;
+  padding-top: 100px;
+}
+
+.cloud-1 {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+  margin-top: 50px;
+}
+
+.cloud-2 {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  /*1em=16px*/
+  font-size: 6rem;
+  color: #ea5455;
+}
+
+h2 {
+  font-family: 'Piazzolla', serif;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #00b8a9;
+}
+
+H3 {
+  color: #00b8a9;
+}
+
+hr {
+  border-top: 10px dotted;
+  width: 20%;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.imgprofile {
+  width: 25%;
+  /*  border-radius: 100px; */
+  padding-top: 20px;
+  float: left;
+  padding-right: 30px;
+}
+
+.imgprofile1 {
+  width: 25%;
+  /*  border-radius: 100px; */
+  float: right;
+  padding-right: 30px;
+}
+
+.imgprofile2 {
+  width: 25%;
+  /*  border-radius: 100px; */
+  float: left;
+  padding-right: 30px;
+}
+
+.profile {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+  padding: 20px;
+  text-align: left;
+}
+
+.skills {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+  padding: 20px;
+  text-align: left;
+}

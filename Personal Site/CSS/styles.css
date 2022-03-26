@@ -1,0 +1,34 @@
+  body {
+    font-family: Courier;
+    background-color: #ffd460;
+
+  }
+
+  hr {
+    border-color: grey;
+    border-width: 10px;
+    border-style: none;
+    border-top-style: dotted;
+    width: 10%;
+    margin: auto;
+    ;
+
+  }
+/*
+  img {
+    border-radius: 100%
+
+  }
+*/
+
+h1{
+  text-align: center;
+  color: #ea5455
+
+}
+
+h3{
+  text-align: center;
+  color: #2d4059
+
+}

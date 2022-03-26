@@ -1,0 +1,91 @@
+
+
+#audioWrapper {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  border: 2px solid #f3f3f3;
+  padding: 0;
+  position: relative;
+}
+
+#trackArtwork {
+  float: left;
+}
+
+#trackArtwork img {
+  width: 500px;
+  height: 500px;
+}
+
+#playPause, .play, .pause {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 500px;
+}
+
+.play {
+  background-image: url('../assets/play.png');
+  background-size: contain;
+}
+
+.pause {
+  background-image: url('../assets/pause.png');
+  background-size: contain;
+}
+
+#trackArtist, #trackTitle {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  padding: 10px 5px 5px 15px;
+  color: #585858;
+}
+
+#trackArtist {
+  font-size: 3em;
+}
+
+#trackTitle {
+  font-size: 1em;
+}
+
+
+@media (max-width: 575px) {
+	/* Phones in Portrait Orientation */
+  #audioWrapper {
+    width: 350px;
+    height: 500px;
+  }
+  
+  #trackArtwork {
+    float: none;
+  }
+  
+  #trackArtwork img {
+    width: 350px;
+    height: 350px;
+  }
+  
+  #playPause, .play, .pause {
+    width: 350px;
+    height: 350px;
+  }
+
+  #trackProgress {
+    left: 10px;
+    width: 340px;
+  }
+  
+  #elapsedTime, #remainingTime {
+    padding: 3px 5px 0 5px;
+    float: left;
+  }
+
+  input[type="range"] {
+    width: 72%;
+  }
+  
+}
